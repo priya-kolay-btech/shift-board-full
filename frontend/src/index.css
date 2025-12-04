@@ -1,0 +1,14 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background:#f4f6f8; color:#111; }
+.container { max-width: 960px; margin: 28px auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 6px 18px rgba(20,20,40,0.08); }
+input, button, select { padding: 10px; margin: 6px 0; border-radius:6px; border:1px solid #ddd; font-size:14px; }
+input[type="date"], input[type="time"] { padding:8px; }
+button { cursor:pointer; background:#0366d6; color:#fff; border: none; padding:10px 12px; border-radius:6px; }
+.button-secondary { background:#6c757d; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { border: 1px solid #eee; padding: 10px; text-align: left; }
+.header { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.form-row { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+.error { color: #b00020; }
+.success { color: #0a8a00; }
+.small { font-size:13px; color:#555; }
+.info-box { background:#eef6ff; padding:8px 12px; border-radius:6px; margin-bottom:8px; }
